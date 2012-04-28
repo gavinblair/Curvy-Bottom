@@ -8,6 +8,7 @@ $(document).ready(function(){
     //new canvas element
     var canvas = document.createElement('canvas');
     canvas.width=ele.offsetWidth;
+    canvas.width='50';
     //add the canvas element
     insertAfter(ele, canvas);
     var ctx;
