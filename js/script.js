@@ -27,7 +27,7 @@ $(document).ready(function(){
     function redraw(){
         //don't need to double resize the canvas element
         ctx.fillStyle = "#E40241";
-        ctx.strokeStyle="#E40241";
+        //ctx.strokeStyle="#E40241";
         ctx.beginPath();
         ctx.moveTo(0,0);
         ctx.lineTo(0,50);
